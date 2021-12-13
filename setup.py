@@ -2,18 +2,18 @@ import os
 import sys
 import setuptools
 
-__author__ = 'Spiridonov Roman <email.speccy.rom@gmail.com>'
+__author__ = "Spiridonov Roman <speccy.rom@gmail.com>"
 __version__ = '0.21'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='django-rtl',
+    name='django-rt-logging',
     version=__version__,
     install_requires=['django>=1.11'],
     author='Spiridonov Roman',
-    author_email='email.speccy.rom@gmail.com>',
+    author_email='Speccy.rom@gmail.com>',
     description='Useful and simple real-time logging middleware for django projects.',
     long_description=long_description,
     long_description_content_type="text/markdown",
