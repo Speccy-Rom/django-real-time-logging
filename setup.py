@@ -13,7 +13,7 @@ setuptools.setup(
     version=__version__,
     install_requires=['django>=1.11'],
     author='Spiridonov Roman',
-    author_email='Speccy.rom@gmail.com>',
+    author_email='<speccy.rom@gmail.com>',
     description='Useful and simple real-time logging middleware for django projects.',
     long_description=long_description,
     long_description_content_type="text/markdown",
