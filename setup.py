@@ -3,7 +3,7 @@ import sys
 import setuptools
 
 __author__ = "Spiridonov Roman <speccy.rom@gmail.com>"
-__version__ = '0.21'
+__version__ = '0.22'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
